@@ -101,15 +101,13 @@ Ensure your legally owned retail game folders (`hl2`, `platform`, etc.) are plac
 The launcher is fully capable of handling separate data footprints for Episode One (`episodic`), Episode Two (`ep2`), and `lostcoast` within the same workspace:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5f89c801-e288-4d8b-a8f1-094b3cea49df" alt="Multi-Episode Structure" width="90%">
+  <img src="https://github.com/user-attachments/assets/6a5d2b0d-7546-41fd-b68a-6e9be8946dd3" alt="Gameplay Execution" width="90%">
 </p>
+
+
 
 ### 3. Standalone Engine Execution
 Proof of performance running natively with Vulkan injection and XWayland environment overrides:
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/6a5d2b0d-7546-41fd-b68a-6e9be8946dd3" alt="Gameplay Execution" width="90%">
-</p>
 
 ---
 *Non-commercial use only. All game assets belong to Valve Corporation.*
