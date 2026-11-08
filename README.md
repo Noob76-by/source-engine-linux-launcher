@@ -3,7 +3,7 @@
 A pre-compiled standalone Source Engine launcher for Linux (x86_64), based on the nillerusr branch. This build allows you to play Half-Life 2 and other Source games independently without Steam, with native OpenGL rendering via Valve's ToGL translation layer.
 
 ## Features
-- **Standalone:** Runs without the Steam client or internet dependency.
+- **Launcher:** Runs without the Steam client or internet dependency.
 - **Stable OpenGL Performance:** Utilizes the integrated ToGL translation layer for optimal graphics compatibility on modern desktop Linux systems.
 - **Compatibility:** Native 64-bit build fixed for modern distributions including Arch Linux and Debian/Ubuntu.
 
