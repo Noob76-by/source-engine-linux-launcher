@@ -93,8 +93,3 @@ Proof of performance running natively with Vulkan injection and XWayland environ
 
 ---
 *Non-commercial use only. All game assets belong to Valve Corporation.*
-
-
-
----
-*Non-commercial use only. All game assets belong to Valve Corporation.*
