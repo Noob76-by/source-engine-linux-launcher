@@ -36,7 +36,7 @@ This engine **does not support the latest 20th Anniversary Edition** update of H
 
 ## How to Install and Play
 
-1. Download the latest release from the Releases section: `source-engine-64bit-standalone.tar.gz`.
+1. Download the latest release from the Releases section: `source-engine-64bit-launcher.tar.gz`.
 2. Extract the archive:
    ```bash
    tar -xzvf source-engine-64bit-launcher.tar.gz
