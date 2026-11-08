@@ -103,21 +103,21 @@ SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
 Ensure your legally owned retail game folders (`hl2`, `platform`, etc.) are placed directly beside the compiled launcher as shown below:
 
 <p align="center">
-  ![](https://github.com/user-attachments/assets/0a2b8da2-167c-490a-9341-5ca3c44d52fc)
+(https://github.com/user-attachments/assets/0a2b8da2-167c-490a-9341-5ca3c44d52fc)
 </p>
 
 ### 2. Multi-Episode Directory Layout (Optional)
 The launcher is fully capable of handling separate data footprints for Episode One (`episodic`), Episode Two (`ep2`), and `lostcoast` within the same workspace:
 
 <p align="center">
-  ![](https://github.com/user-attachments/assets/5f89c801-e288-4d8b-a8f1-094b3cea49df)
+(https://github.com/user-attachments/assets/5f89c801-e288-4d8b-a8f1-094b3cea49df)
 </p>
 
 ### 3. Standalone Engine Execution
 Proof of performance running natively with Vulkan injection and XWayland environment overrides:
 
 <p align="center">
-  ![](https://github.com/user-attachments/assets/6a5d2b0d-7546-41fd-b68a-6e9be8946dd3)
+(https://github.com/user-attachments/assets/6a5d2b0d-7546-41fd-b68a-6e9be8946dd3)
 </p>
 
 ---
