@@ -89,6 +89,9 @@ The launcher is fully capable of handling separate data footprints for Episode O
 
 ### 3. Standalone Engine Execution
 Proof of performance running natively with Vulkan injection and XWayland environment overrides:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6a5d2b0d-7546-41fd-b68a-6e9be8946dd3" alt="Source Engine Vulkan Linux" width="90%">
+</p>
 
 
 ---
