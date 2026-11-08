@@ -59,9 +59,7 @@ This engine **does not support the latest 20th Anniversary Edition** update of H
 ---
 
 ### 📷 Gameplay Screenshot
-<p align="center">
-  <img src="DỰ_PHÒNG_LINK_ẢNH_CỦA_BẠN_Ở_ĐÂY" alt="Source Engine Vulkan Linux" width="90%">
-</p>
+
 
 ---
 *Non-commercial use only. All game assets belong to Valve Corporation.*
