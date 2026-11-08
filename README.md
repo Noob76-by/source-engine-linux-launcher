@@ -34,14 +34,3 @@ A pre-compiled standalone Source Engine launcher for Linux (x86_64), based on th
 
 ---
 *Non-commercial use only. All game assets belong to Valve Corporation.*
-### Package Structure
-
-```text
-hl2/
-├── hl2_launcher         (Main engine binary)
-└── bin/                 (Folder containing essential compiled .so libraries)
-    ├── engine.so
-    ├── launcher.so
-    ├── vstdlib.so
-    └── ...
-```
