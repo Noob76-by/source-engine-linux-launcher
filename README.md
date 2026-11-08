@@ -51,6 +51,10 @@ This engine **does not support the latest 20th Anniversary Edition** update of H
    - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -windowed -noborder`
    - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -windowed -noborder`
    - **Counter-Strike: Source:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game cstrike -windowed -noborder`
+5. Launch your game using the quick script:
+   ```bash
+   ./source-engine.sh
+   ```
 
 ## 🛠️ Troubleshooting (Wayland Issues)
 
