@@ -55,21 +55,47 @@ This engine **does not support the latest 20th Anniversary Edition** update of H
    - **Half-Life 2:** `./hl2_launcher -vulkan`
    - **Portal:** `./hl2_launcher -game portal -vulkan`
    - **Counter-Strike: Source:** `./hl2_launcher -game cstrike -vulkan`
+5. Launch your game using the Terminal:
+   - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder`
+   - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -vulkan -windowed -noborder`
+   - **Counter-Strike: Source:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game cstrike -vulkan -windowed -noborder`
+
+## 🛠️ Troubleshooting (Wayland Issues)
+
+If you are running a modern Linux desktop environment using **Wayland** (like GNOME or KDE Plasma on Arch Linux) and the game freezes or fails to open a window after showing the graphics target, you must force the engine to run via **XWayland** by appending the X11 video driver variable.
+
+Always execute the launcher using the full combined parameters:
+```bash
+SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
+```
 
 ---
 
-### 📷 Gameplay Screenshot
+## 📷 Screenshots & Package Layout
+
+### 1. Basic Game Directory Structure
+Ensure your legally owned retail game folders (`hl2`, `platform`, etc.) are placed directly beside the compiled launcher as shown below:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a6d8d6bf-1d50-4949-98c5-d7f6bf4be7c2" alt="Package Structure Layout" width="90%">
+</p>
+
+### 2. Multi-Episode Directory Layout (Optional)
+The launcher is fully capable of handling separate data footprints for Episode One (`episodic`), Episode Two (`ep2`), and `lostcoast` within the same workspace:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5f89c801-e288-4d8b-a8f1-094b3cea49df" alt="Multi-Episode Structure Layout" width="90%">
+</p>
+
+### 3. Standalone Engine Execution
+Proof of performance running natively with Vulkan injection and XWayland environment overrides:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a6d8d6bf-1d50-4949-98c5-d7f6bf4be7c2" alt="Source Engine Vulkan Linux" width="90%">
 </p>
 
 ---
-5. Launch your game using the Terminal:
-   - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder`
-   - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -vulkan -windowed -noborder`
-   - **Counter-Strike: Source:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game cstrike -vulkan -windowed -noborder`
-
+*Non-commercial use only. All game assets belong to Valve Corporation.*
 
 
 
