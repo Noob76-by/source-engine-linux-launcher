@@ -39,7 +39,7 @@ This engine **does not support the latest 20th Anniversary Edition** update of H
 1. Download the latest release from the Releases section: `source-engine-64bit-standalone.tar.gz`.
 2. Extract the archive:
    ```bash
-   tar -xzvf source-engine-64bit-standalone.tar.gz
+   tar -xzvf source-engine-64bit-launcher.tar.gz
    cd hl2
    ```
 3. Copy your original retail game folders (e.g., `hl2`, `portal`, `cstrike`, `platform`) and paste them directly into this extracted `hl2` folder (beside `hl2_launcher` and the `bin` folder).
