@@ -94,6 +94,19 @@ Always execute the launcher using the full combined parameters:
 ```bash
 SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
 ```
+5. Launch your game using the Terminal:
+   - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder`
+   - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -vulkan -windowed -noborder`
+   - **Counter-Strike: Source:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game cstrike -vulkan -windowed -noborder`
+
+## 🛠️ Troubleshooting (Wayland Issues)
+
+If you are running a modern Linux desktop environment using **Wayland** (like GNOME or KDE Plasma on Arch Linux) and the game freezes or fails to open a window after showing the graphics target, you must force the engine to run via **XWayland** by appending the X11 video driver variable.
+
+Always execute the launcher using the full combined parameters:
+```bash
+SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
+```
 
 ---
 
@@ -103,25 +116,28 @@ SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
 Ensure your legally owned retail game folders (`hl2`, `platform`, etc.) are placed directly beside the compiled launcher as shown below:
 
 <p align="center">
-(https://github.com/user-attachments/assets/0a2b8da2-167c-490a-9341-5ca3c44d52fc)
+  <img src="https://github.com" alt="Basic Structure" width="90%">
 </p>
 
 ### 2. Multi-Episode Directory Layout (Optional)
 The launcher is fully capable of handling separate data footprints for Episode One (`episodic`), Episode Two (`ep2`), and `lostcoast` within the same workspace:
 
 <p align="center">
-(https://github.com/user-attachments/assets/5f89c801-e288-4d8b-a8f1-094b3cea49df)
+  <img src="https://github.com/user-attachments/assets/5f89c801-e288-4d8b-a8f1-094b3cea49df" alt="Multi-Episode Structure" width="90%">
 </p>
 
 ### 3. Standalone Engine Execution
 Proof of performance running natively with Vulkan injection and XWayland environment overrides:
 
 <p align="center">
-(https://github.com/user-attachments/assets/6a5d2b0d-7546-41fd-b68a-6e9be8946dd3)
+  <img src="https://github.com/user-attachments/assets/6a5d2b0d-7546-41fd-b68a-6e9be8946dd3" alt="Gameplay Execution" width="90%">
 </p>
 
 ---
 *Non-commercial use only. All game assets belong to Valve Corporation.*
+
+
+
 
 
 
