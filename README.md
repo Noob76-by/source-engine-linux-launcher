@@ -72,28 +72,6 @@ SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
    - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder`
    - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -vulkan -windowed -noborder`
    - **Counter-Strike: Source:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game cstrike -vulkan -windowed -noborder`
-
-## 🛠️ Troubleshooting (Wayland Issues)
-
-If you are running a modern Linux desktop environment using **Wayland** (like GNOME or KDE Plasma on Arch Linux) and the game freezes or fails to open a window after showing the graphics target, you must force the engine to run via **XWayland** by appending the X11 video driver variable.
-
-Always execute the launcher using the full combined parameters:
-```bash
-SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
-```
-5. Launch your game using the Terminal:
-   - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder`
-   - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -vulkan -windowed -noborder`
-   - **Counter-Strike: Source:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game cstrike -vulkan -windowed -noborder`
-
-## 🛠️ Troubleshooting (Wayland Issues)
-
-If you are running a modern Linux desktop environment using **Wayland** (like GNOME or KDE Plasma on Arch Linux) and the game freezes or fails to open a window after showing the graphics target, you must force the engine to run via **XWayland** by appending the X11 video driver variable.
-
-Always execute the launcher using the full combined parameters:
-```bash
-SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
-```
 5. Launch your game using the Terminal:
    - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder`
    - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -vulkan -windowed -noborder`
@@ -116,7 +94,7 @@ SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder
 Ensure your legally owned retail game folders (`hl2`, `platform`, etc.) are placed directly beside the compiled launcher as shown below:
 
 <p align="center">
-  <img src="https://github.com" alt="Basic Structure" width="90%">
+  <img src="https://github.com/user-attachments/assets/0a2b8da2-167c-490a-9341-5ca3c44d52fc" alt="Basic Structure" width="90%">
 </p>
 
 ### 2. Multi-Episode Directory Layout (Optional)
