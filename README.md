@@ -108,6 +108,10 @@ The launcher is fully capable of handling separate data footprints for Episode O
 
 ### 3. Standalone Engine Execution
 Proof of performance running natively with Vulkan injection and XWayland environment overrides:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/633b4556-2af1-42f4-bb25-f0d20ed3c3d9" alt="Gameplay Execution" width="90%">
+</p>
+
 
 ---
 *Non-commercial use only. All game assets belong to Valve Corporation.*
