@@ -60,6 +60,12 @@ This engine **does not support the latest 20th Anniversary Edition** update of H
 
 ### 📷 Gameplay Screenshot
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a6d8d6bf-1d50-4949-98c5-d7f6bf4be7c2" alt="Source Engine Vulkan Linux" width="90%">
+</p>
+
+---
+
 
 
 
