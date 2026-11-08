@@ -65,6 +65,10 @@ This engine **does not support the latest 20th Anniversary Edition** update of H
 </p>
 
 ---
+5. Launch your game using the Terminal:
+   - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -vulkan -windowed -noborder`
+   - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -vulkan -windowed -noborder`
+   - **Counter-Strike: Source:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game cstrike -vulkan -windowed -noborder`
 
 
 
