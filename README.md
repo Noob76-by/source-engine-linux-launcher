@@ -10,7 +10,7 @@ A pre-compiled standalone Source Engine launcher for Linux (x86_64), based on th
 ## Supported Games
 - Half-Life 2 (Base, Episode One, Episode Two)
 - Portal
-- Counter-Strike: Source
+- Counter-Strike: Source 
 - Other
 ## Package Structure
 
