@@ -46,12 +46,7 @@ This engine **does not support the latest 20th Anniversary Edition** update of H
 4. Set execution permissions for the binary:
    ```bash
    chmod +x hl2_launcher
-   ```
-5. Launch your game using the Terminal:
-   - **Half-Life 2:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -windowed -noborder`
-   - **Portal:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game portal -windowed -noborder`
-   - **Counter-Strike: Source:** `SDL_VIDEODRIVER=x11 ./hl2_launcher -game cstrike -windowed -noborder`
-5. Launch your game using the quick script:
+   
    ```bash
    ./source-engine.sh
    ```
