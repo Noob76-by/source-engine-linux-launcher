@@ -8,10 +8,7 @@ A pre-compiled standalone Source Engine launcher for Linux (x86_64), based on th
 - **Compatibility:** Native 64-bit build fixed for modern distributions including Arch Linux and Debian/Ubuntu.
 
 ## Supported Games
-- Half-Life 2 (Base, Episode One, Episode Two)
-- Portal
-- Counter-Strike: Source 
-- Other
+- Half-Life 2 
 ## Package Structure
 
 ```text
