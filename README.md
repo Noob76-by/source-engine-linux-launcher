@@ -11,8 +11,7 @@ A pre-compiled standalone Source Engine launcher for Linux (x86_64), based on th
 - Half-Life 2
 - Counter-Strike: Source ( not yet )
 - Portal ( not yet )
-- All episodic Half-Life 2 ( soon )
--Other 
+- All episodic Half-Life 2 ( soon ) 
 ## Package Structure
 
 ```text
