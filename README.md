@@ -1,5 +1,5 @@
 # Source Engine Standalone Launcher for Linux
-
+This project is currently being developed for Arch Linux and other Arch-based platforms; support for Ubuntu and Debian will be added later.
 A pre-compiled standalone Source Engine launcher for Linux (x86_64), based on the nillerusr branch. This build allows you to play Half-Life 2 and other Source games independently without Steam, with native OpenGL rendering via Valve's ToGL translation layer.
 
 ## Features
